@@ -10110,7 +10110,30 @@ img::-moz-selection {
     background-position: center center;
   background-size: cover;
 }
-
+.btn-socialpt {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+  background:transparent url('../assets/img/team/PT.jpg') no-repeat;
+    background-position: center center;
+  background-size: cover;
+}
+.btn-socialen {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+  background:transparent url('../assets/img/team/EN.jpg') no-repeat;
+    background-position: center center;
+  background-size: cover;
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
