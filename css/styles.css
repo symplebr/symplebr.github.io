@@ -10564,6 +10564,8 @@ section#contact form#contactForm ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
+
+
 section#contact form#contactForm :-moz-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
@@ -10589,4 +10591,45 @@ section#contact form#contactForm :-ms-input-placeholder {
   color:#fff;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bg-modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.modal-content{
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	opacity: 1;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+input{
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+	
+}
+
+.close1{
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	
+	
 }

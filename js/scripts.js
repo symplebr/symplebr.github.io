@@ -40,7 +40,10 @@
         target: "#mainNav",
         offset: 74,
     });
-
+	
+	document.querySelector('.bg-modal').style.display = 'flex';
+	document.querySelector('.close1').addEventListener('click',function(){document.querySelector('.bg-modal').style.display='none';});
+	
     // Collapse Navbar
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
