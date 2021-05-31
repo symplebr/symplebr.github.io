@@ -621,6 +621,15 @@ pre code {
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
+
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15rem;
+  margin-left: 15rem;
+
 }
 
 .no-gutters {
@@ -643,7 +652,9 @@ pre code {
   width: 100%;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
+
 }
+
 
 .col {
   flex-basis: 0;
