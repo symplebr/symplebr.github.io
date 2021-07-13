@@ -56,5 +56,5 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
-	document.querySelector('.bg-modal').style.display = 'flex';
-	document.querySelector('.close1').addEventListener('click',function(){document.querySelector('.bg-modal').style.display='none';});
+	document.querySelector('.bg-modalds').style.display = 'flex';
+	document.querySelector('.closel').addEventListener('click',function(){document.querySelector('.bg-modalds').style.display='none';});
